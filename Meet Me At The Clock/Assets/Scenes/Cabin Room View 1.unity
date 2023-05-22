@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 56342178}
   - component: {fileID: 56342177}
   - component: {fileID: 56342179}
+  - component: {fileID: 56342180}
   m_Layer: 0
   m_Name: Cabin Flowchart
   m_TagString: Untagged
@@ -221,7 +222,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 180.93129
     y: 170.98802
-    width: 122.87234
+    width: 122.1501
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -255,11 +256,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 52.467144, y: 5.7123337}
+  scrollPos: {x: 88.24306, y: 29.713863}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.8662497
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -267,7 +268,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 56342137}
+  - {fileID: 56342109}
   selectedCommands: []
   variables: []
   description: 
@@ -311,7 +312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338
     y: 72
-    width: 128.72339
+    width: 127.34491
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -504,7 +505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 344.9999
     y: 367.42862
-    width: 117.553185
+    width: 115.80089
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -786,7 +787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.99222
     y: 237.06921
-    width: 118.61702
+    width: 117.53249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -879,7 +880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 458.92618
     y: 276.1894
-    width: 125.53191
+    width: 124.4589
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -999,7 +1000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 463.9342
     y: 198.96149
-    width: 125.53191
+    width: 124.4589
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1294,7 +1295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.54242
     y: 73.870895
-    width: 107.44681
+    width: 106.565674
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1357,7 +1358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.1791534
     y: 241.12997
-    width: 128.19148
+    width: 126.190506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1470,7 +1471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.750573
     y: 295.41537
-    width: 128.19148
+    width: 126.190506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1540,7 +1541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.1791496
     y: 186.84421
-    width: 127.127655
+    width: 125.0361
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1610,7 +1611,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 15.036278
     y: 134.34416
-    width: 117.02127
+    width: 115.22369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1653,7 +1654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.84329
     y: 250.79315
-    width: 124.99999
+    width: 124.4589
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1663,6 +1664,7 @@ MonoBehaviour:
   eventHandler: {fileID: 56342177}
   commandList:
   - {fileID: 56342179}
+  - {fileID: 56342180}
   suppressAllAutoSelections: 0
 --- !u!114 &56342179
 MonoBehaviour:
@@ -1684,6 +1686,25 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &56342180
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56342107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Cabin Room View 2
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &65870444
 GameObject:
   m_ObjectHideFlags: 0

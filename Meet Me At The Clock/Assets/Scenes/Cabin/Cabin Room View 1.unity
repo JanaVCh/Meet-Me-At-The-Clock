@@ -268,8 +268,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 56342109}
-  selectedCommands: []
+  - {fileID: 56342178}
+  selectedCommands:
+  - {fileID: 56342179}
   variables: []
   description: 
   stepPause: 0
@@ -1681,7 +1682,7 @@ MonoBehaviour:
   itemId: 61
   indentLevel: 0
   duration: 1
-  targetAlpha: 0
+  targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}

@@ -82,22 +82,3 @@ public class Wire : MonoBehaviour
         wireEnd.size = new Vector2(dist, wireEnd.size.y);
     }
 }
-
-public GameObject.collider ---;
-public GameObject ---;
-
-public class SceneSwitch : MonoBehaviour
-{
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.collider.---);
-    }
-
-    void OnCollisionStay(Collision collision)
-    {
-        if (collision.collider.name == "")
-        {
-            Debug.Log("")
-        }
-    }
-}

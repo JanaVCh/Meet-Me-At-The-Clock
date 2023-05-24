@@ -19,7 +19,7 @@ public class Timers : MonoBehaviour
         if (timeValue > 0)
         {
             timeValue -= Time.deltaTime;
-            SceneManager.LoadScene("");
+
         }
         else
         {
@@ -27,6 +27,7 @@ public class Timers : MonoBehaviour
         }
 
         DisplayTime(timeValue);
+
     }
 
     void DisplayTime(float timeToDisplay)
@@ -34,13 +35,13 @@ public class Timers : MonoBehaviour
         if (timeToDisplay < 0)
         {
             timeToDisplay = 0;
+
         }
 
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        DontDestroyOnLoad(gameObject);
 
     }
 }

@@ -17,6 +17,7 @@ public class SimpleLock : MonoBehaviour
     public string _insertedPassword;
 
     public Sprite OpenedToolBox;
+    public bool lockSolved = false;
 
 
 
@@ -56,6 +57,7 @@ public class SimpleLock : MonoBehaviour
         Debug.Log("Unlocked");
         Interactable = false;
         StopInteract();
+        lockSolved = true;
         SceneManager.LoadScene("insideToolBox");
         
     }

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - hehe
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: Puzzle
     uniqueID: 1350377293
+    locked: 0
+  - name: FrontViewEl Dark
+    uniqueID: 1315944037
     locked: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timers : MonoBehaviour
@@ -18,6 +19,7 @@ public class Timers : MonoBehaviour
         if (timeValue > 0)
         {
             timeValue -= Time.deltaTime;
+            SceneManager.LoadScene("");
         }
         else
         {
@@ -38,8 +40,8 @@ public class Timers : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        DontDestroyOnLoad(gameObject);
 
-        
     }
 }
 

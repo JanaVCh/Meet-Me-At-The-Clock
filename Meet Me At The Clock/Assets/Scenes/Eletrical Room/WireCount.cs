@@ -23,6 +23,5 @@ public class WireCount : MonoBehaviour
             // Change Scene
             SceneManager.LoadScene("Side View 1");
         }
-
     }
 }

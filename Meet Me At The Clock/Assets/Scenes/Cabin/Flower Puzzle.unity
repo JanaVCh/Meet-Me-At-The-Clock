@@ -799,7 +799,7 @@ Transform:
   m_GameObject: {fileID: 347012098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26693562, y: 0.26375756, z: 1}
+  m_LocalScale: {x: 0.33358943, y: 0.30967775, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3069,8 +3069,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1674682549}
-  selectedCommands:
-  - {fileID: 1674682539}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3166,8 +3165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 518.1077
-    y: 143.74498
+    x: 514.1077
+    y: 76.74498
     width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3229,8 +3228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 728.9978
-    y: 5.4562836
+    x: 657.9978
+    y: 13.456284
     width: 113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3315,7 +3314,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.81568635, g: 0.7686275, b: 0.61960787, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

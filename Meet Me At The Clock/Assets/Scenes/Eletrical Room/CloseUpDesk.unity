@@ -206,6 +206,159 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &586688740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586688744}
+  - component: {fileID: 586688743}
+  - component: {fileID: 586688742}
+  - component: {fileID: 586688741}
+  m_Layer: 0
+  m_Name: Headphones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &586688741
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586688740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.7078531, y: -0.1358571}
+      - {x: 0.12045273, y: -0.12556034}
+      - {x: -0.7918301, y: -0.56472677}
+      - {x: -0.92711955, y: -0.49859416}
+      - {x: -1.2144439, y: -0.66222274}
+      - {x: -1.3450234, y: -1.0230193}
+      - {x: -1.0833683, y: -1.1094929}
+      - {x: -0.79801434, y: -0.8693247}
+      - {x: -0.61666185, y: -0.64472556}
+      - {x: -0.37200794, y: -0.52936876}
+      - {x: 0.1433194, y: -0.39747465}
+      - {x: 0.6894074, y: -0.4124484}
+      - {x: 1.3275933, y: -1.0510868}
+      - {x: 1.2662485, y: -1.5446264}
+      - {x: 1.0003277, y: -1.9831387}
+      - {x: 0.8167707, y: -1.9261202}
+      - {x: 0.44838488, y: -1.9972396}
+      - {x: 0.2609818, y: -2.1882954}
+      - {x: 0.27270085, y: -2.5448608}
+      - {x: 0.4464079, y: -2.7465239}
+      - {x: 0.7587687, y: -2.7743332}
+      - {x: 1.0397997, y: -2.70052}
+      - {x: 1.1527762, y: -2.4841604}
+      - {x: 1.1194824, y: -2.1564684}
+      - {x: 1.4638494, y: -1.5363885}
+      - {x: 1.57768, y: -1.0109882}
+      - {x: 1.3790607, y: -0.563453}
+--- !u!114 &586688742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586688740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+--- !u!212 &586688743
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586688740}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &586688744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586688740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3385402, y: -0.60004056, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &700935848
 GameObject:
   m_ObjectHideFlags: 1
@@ -550,6 +703,9 @@ GameObject:
   - component: {fileID: 796952574}
   - component: {fileID: 796952570}
   - component: {fileID: 796952580}
+  - component: {fileID: 796952582}
+  - component: {fileID: 796952583}
+  - component: {fileID: 796952581}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -589,7 +745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.37836
     y: 116.37836
-    width: 108.156044
+    width: 107.70584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -616,11 +772,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 509.48285, y: -78.41062}
+  scrollPos: {x: 107.60301, y: -40.87942}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7049998
+  zoom: 0.71050006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -628,9 +784,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 796952568}
+  - {fileID: 796952582}
   selectedCommands:
-  - {fileID: 796952580}
+  - {fileID: 796952581}
   variables: []
   description: 
   stepPause: 0
@@ -673,7 +829,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.756714
     y: 112
-    width: 77.659584
+    width: 77.44546
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -841,7 +997,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -23.62164
     y: 195
-    width: 115.248245
+    width: 115.44686
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1001,7 +1157,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -259.18555
     y: 180.16188
-    width: 79.07802
+    width: 78.85292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1161,7 +1317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -263.32043
     y: 316.61957
-    width: 83.33334
+    width: 83.075294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1318,7 +1474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -263.99576
     y: 364.8621
-    width: 84.042564
+    width: 83.77902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1345,7 +1501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -264.6989
     y: 265.62036
-    width: 81.9149
+    width: 82.37157
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1383,6 +1539,66 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &796952581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: feaba26d00f2748c0ae3cb4938172f87, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &796952582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -23.155449
+    y: 246.36842
+    width: 121.78043
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 44
+  blockName: Headphones
+  description: 
+  eventHandler: {fileID: 796952583}
+  commandList:
+  - {fileID: 796952581}
+  suppressAllAutoSelections: 0
+--- !u!114 &796952583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 796952582}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 586688742}
+  waitFrames: 1
 --- !u!1 &812183289
 GameObject:
   m_ObjectHideFlags: 0

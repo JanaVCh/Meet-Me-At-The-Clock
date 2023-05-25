@@ -8,6 +8,7 @@ public class WinScript : MonoBehaviour
     private int pointsToWin;
     private int currentPoints;
     public GameObject myPieces;
+    
 
     void Start()
     {
@@ -20,8 +21,6 @@ public class WinScript : MonoBehaviour
         {
             // WIN
             SceneManager.LoadScene("Cabin Room View 2");
-
-
         }
     }
 

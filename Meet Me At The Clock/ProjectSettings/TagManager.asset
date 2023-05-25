@@ -42,6 +42,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< Updated upstream
   - name: PuzzleBlack
     uniqueID: 3783562227
     locked: 0
@@ -50,6 +51,13 @@ TagManager:
     locked: 0
   - name: FrontViewEl Dark
     uniqueID: 1315944037
+=======
+  - name: Puzzle Black
+    uniqueID: 921351383
+    locked: 0
+  - name: Puzzle
+    uniqueID: 3654345289
+>>>>>>> Stashed changes
     locked: 0
   - name: Opened Floor
     uniqueID: 3656885641

@@ -6,11 +6,7 @@ using UnityEngine.UI;
 
 public class Timers : MonoBehaviour
 {
-    void Start()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
+    
     public float timeValue = 1800;
     public Text timeText;
 

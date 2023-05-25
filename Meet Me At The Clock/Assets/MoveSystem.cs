@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MoveSystem : MonoBehaviour
@@ -31,8 +32,9 @@ public class MoveSystem : MonoBehaviour
                 this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
             }
         }
+       
 
-        
+
     }
 
     private void OnMouseDown()
@@ -59,6 +61,8 @@ public class MoveSystem : MonoBehaviour
         {
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             finish = true;
+            
+            GameObject.Find("PuzzleHolder").GetComponent<WinScript>().AddPoints();
         }
         else
         {

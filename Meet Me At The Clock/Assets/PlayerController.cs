@@ -24,8 +24,5 @@ public class PlayerController : MonoBehaviour
         rb.velocity = movementDirection * movementSpeed;
     }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        SceneManager.LoadScene("StorageRoom");
-    }
+    
 }

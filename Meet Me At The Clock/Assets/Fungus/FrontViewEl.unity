@@ -1420,9 +1420,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1453286104}
+  - {fileID: 1453286111}
   selectedCommands:
-  - {fileID: 1453286102}
+  - {fileID: 1453286109}
   variables: []
   description: 
   stepPause: 0
@@ -2050,7 +2050,7 @@ MonoBehaviour:
   itemId: 53
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 3745ef25234be41c7bf9f48813d827f4, type: 3}
-  volume: 1
+  volume: 0.774
   waitUntilFinished: 0
 --- !u!114 &1453286103
 MonoBehaviour:
@@ -2082,8 +2082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 243.3343
-    y: 242.83136
+    x: 265.83313
+    y: 278.6248
     width: 73.52138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2195,7 +2195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Its locked, oh nooo
+  storyText: 'Its locked '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2240,13 +2240,13 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 369.05228
-    y: 245.83505
-    width: 159.42557
+    y: 246.85773
+    width: 124.65482
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 57
-  blockName: Left Drawer (Copy)
+  blockName: Right Drawer
   description: 
   eventHandler: {fileID: 1453286108}
   commandList:
@@ -2255,7 +2255,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1453286112
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     private float movementSpeed = 2f;
     private Rigidbody2D rb;
     private Vector2 movementDirection;
+    public GameObject Player;
+    public GameObject MazeGoal;
 
     void Start()
     {
@@ -24,5 +26,11 @@ public class PlayerController : MonoBehaviour
         rb.velocity = movementDirection * movementSpeed;
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == "MazeGoal")
+        {
+            SceneManager.LoadScene("StorageRoom");
+        }
+    }
 }

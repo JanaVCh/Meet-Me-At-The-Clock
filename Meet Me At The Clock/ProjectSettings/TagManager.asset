@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Opened Floor
   - Water
   - UI
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: FrontViewEl Dark
     uniqueID: 1315944037
+    locked: 0
+  - name: Opened Floor
+    uniqueID: 3656885641
     locked: 0

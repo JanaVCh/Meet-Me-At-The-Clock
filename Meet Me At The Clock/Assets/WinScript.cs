@@ -8,6 +8,7 @@ public class WinScript : MonoBehaviour
     private int pointsToWin;
     private int currentPoints;
     public GameObject myPieces;
+    public bool JigsawDone;
     
 
     void Start()
@@ -21,6 +22,7 @@ public class WinScript : MonoBehaviour
         {
             // WIN
             SceneManager.LoadScene("Cabin Room View 2");
+            JigsawDone = true;  
         }
     }
 

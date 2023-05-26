@@ -446,6 +446,10 @@ GameObject:
   - component: {fileID: 1173362627}
   - component: {fileID: 1173362626}
   - component: {fileID: 1173362625}
+  - component: {fileID: 1173362631}
+  - component: {fileID: 1173362630}
+  - component: {fileID: 1173362629}
+  - component: {fileID: 1173362628}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -466,7 +470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 86.40871, y: 108.90138}
+  scrollPos: {x: 163.4087, y: 108.90138}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -477,7 +481,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1173362631}
   selectedCommands: []
   variables: []
   description: 
@@ -622,8 +627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -57
-    y: 4
+    x: -19
+    y: 14
     width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -802,6 +807,89 @@ MonoBehaviour:
   eventHandler: {fileID: 1173362626}
   commandList:
   - {fileID: 1173362625}
+  suppressAllAutoSelections: 0
+--- !u!114 &1173362628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Map
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1173362629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &1173362630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1173362631}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 109
+--- !u!114 &1173362631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 54.591293
+    y: 142.09862
+    width: 75
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 10
+  blockName: Map
+  description: 
+  eventHandler: {fileID: 1173362630}
+  commandList:
+  - {fileID: 1173362629}
+  - {fileID: 1173362628}
   suppressAllAutoSelections: 0
 --- !u!1 &1295051871
 GameObject:

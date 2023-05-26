@@ -34,5 +34,4 @@ public class KeyPad : MonoBehaviour
     {
         Ans.text = null;
     }
-
 }   

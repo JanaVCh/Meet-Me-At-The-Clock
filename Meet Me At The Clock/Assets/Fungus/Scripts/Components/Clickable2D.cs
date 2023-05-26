@@ -125,7 +125,6 @@ namespace Fungus
                 DoPointerExit();
             }
         }
-
         #endregion
     }
 }

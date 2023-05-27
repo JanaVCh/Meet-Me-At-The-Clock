@@ -8,7 +8,6 @@ public class WinScript : MonoBehaviour
     private int pointsToWin;
     private int currentPoints;
     public GameObject myPieces;
-    
 
     void Start()
     {
@@ -20,7 +19,9 @@ public class WinScript : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             // WIN
-            SceneManager.LoadScene("Cabin Room View 2");
+            SceneManager.LoadScene("Drawer View");
+
+
         }
     }
 

@@ -7,7 +7,6 @@ public class MoveSystem : MonoBehaviour
 {
     public GameObject correctForm;
     private bool moving;
-    public bool JigsawDone;
 
     private float startPosX;
     private float startPosY;
@@ -62,7 +61,7 @@ public class MoveSystem : MonoBehaviour
         {
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             finish = true;
-            JigsawDone = true;
+            
             GameObject.Find("PuzzleHolder").GetComponent<WinScript>().AddPoints();
         }
         else

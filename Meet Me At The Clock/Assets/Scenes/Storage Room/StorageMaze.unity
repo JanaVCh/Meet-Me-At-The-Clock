@@ -1085,8 +1085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91bb7eaa06908c64a86d82510f874739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  MazeGoal: {fileID: 0}
 --- !u!50 &678971922
 Rigidbody2D:
   serializedVersion: 4
@@ -3818,7 +3816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088039043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5382113, y: -0.56369996, z: 0}
+  m_LocalPosition: {x: 2.3622303, y: -0.56271005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

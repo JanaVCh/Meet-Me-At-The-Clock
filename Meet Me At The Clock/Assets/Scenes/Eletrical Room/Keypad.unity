@@ -864,12 +864,6 @@ GameObject:
   - component: {fileID: 524102413}
   - component: {fileID: 524102412}
   - component: {fileID: 524102414}
-  - component: {fileID: 524102426}
-  - component: {fileID: 524102425}
-  - component: {fileID: 524102424}
-  - component: {fileID: 524102423}
-  - component: {fileID: 524102422}
-  - component: {fileID: 524102421}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -904,7 +898,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 524102413}
   selectedCommands:
-  - {fileID: 524102421}
+  - {fileID: 524102412}
   variables:
   - {fileID: 524102363}
   description: 
@@ -1879,8 +1873,6 @@ MonoBehaviour:
   eventHandler: {fileID: 524102414}
   commandList:
   - {fileID: 524102412}
-  - {fileID: 524102422}
-  - {fileID: 524102421}
   suppressAllAutoSelections: 0
 --- !u!114 &524102414
 MonoBehaviour:
@@ -1928,7 +1920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: ' 1 - - 2'
+  storyText: 1
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1967,8 +1959,6 @@ MonoBehaviour:
   eventHandler: {fileID: 524102415}
   commandList:
   - {fileID: 524102416}
-  - {fileID: 524102424}
-  - {fileID: 524102423}
   suppressAllAutoSelections: 0
 --- !u!114 &524102418
 MonoBehaviour:
@@ -1984,7 +1974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: I remember some numbers in my cabin..
+  storyText: The meaning is in the name
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2039,123 +2029,7 @@ MonoBehaviour:
   eventHandler: {fileID: 524102419}
   commandList:
   - {fileID: 524102418}
-  - {fileID: 524102426}
-  - {fileID: 524102425}
   suppressAllAutoSelections: 0
---- !u!114 &524102421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 54
-  indentLevel: 0
-  targetClickable2D: {fileID: 1200058234}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &524102422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 53
-  indentLevel: 0
-  spriteRenderer: {fileID: 1200058236}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
---- !u!114 &524102423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 0
-  targetClickable2D: {fileID: 1271340243}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &524102424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  indentLevel: 0
-  spriteRenderer: {fileID: 1271340245}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
---- !u!114 &524102425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  indentLevel: 0
-  targetClickable2D: {fileID: 1489676951}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &524102426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524102361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 49
-  indentLevel: 0
-  spriteRenderer: {fileID: 1489676953}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!1 &658347746
 GameObject:
   m_ObjectHideFlags: 0

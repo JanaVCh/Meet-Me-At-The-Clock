@@ -8,7 +8,9 @@ public class WinScript : MonoBehaviour
     private int pointsToWin;
     private int currentPoints;
     public GameObject myPieces;
-
+    public bool JigsawDone;
+    
+    
     void Start()
     {
         pointsToWin = myPieces.transform.childCount;
@@ -19,9 +21,8 @@ public class WinScript : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             // WIN
-            SceneManager.LoadScene("Drawer View");
-
-
+            SceneManager.LoadScene("Cabin Room View 2");
+            JigsawDone = true;  
         }
     }
 

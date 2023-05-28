@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1173362612}
 --- !u!4 &335298539
 Transform:
   m_ObjectHideFlags: 1
@@ -446,6 +446,8 @@ GameObject:
   - component: {fileID: 1173362627}
   - component: {fileID: 1173362626}
   - component: {fileID: 1173362625}
+  - component: {fileID: 1173362628}
+  - component: {fileID: 1173362629}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -477,8 +479,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1173362627}
+  selectedCommands:
+  - {fileID: 1173362625}
   variables: []
   description: 
   stepPause: 0
@@ -534,6 +538,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1173362616}
   commandList:
+  - {fileID: 1173362629}
+  - {fileID: 1173362628}
   - {fileID: 1173362615}
   - {fileID: 1173362613}
   suppressAllAutoSelections: 0
@@ -747,7 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: I can't see anything...
+  storyText: Where is the electrical panel?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -803,6 +809,51 @@ MonoBehaviour:
   commandList:
   - {fileID: 1173362625}
   suppressAllAutoSelections: 0
+--- !u!114 &1173362628
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: Here it is!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1173362629
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  targetClickable2D: {fileID: 1295051873}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1295051871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1145,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c2c5e334325484504854a482514684a5, type: 3}
-  m_Color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0.9019608}
+  m_Color: {r: 0.2735849, g: 0.26455143, b: 0.26455143, a: 0.9019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

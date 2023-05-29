@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 56342200}
   - component: {fileID: 56342211}
   - component: {fileID: 56342210}
+  - component: {fileID: 56342212}
   m_Layer: 0
   m_Name: Cabin Flowchart
   m_TagString: Untagged
@@ -326,6 +327,7 @@ MonoBehaviour:
   - {fileID: 56342193}
   variables:
   - {fileID: 56342189}
+  - {fileID: 56342212}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2668,7 +2670,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &56342210
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2686,7 +2688,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &56342211
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2702,6 +2704,21 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &56342212
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56342107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: cabinEscaped
+  value: 0
 --- !u!1 &65870444
 GameObject:
   m_ObjectHideFlags: 0

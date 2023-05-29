@@ -21,7 +21,7 @@ public class WinScript : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             // WIN
-            SceneManager.LoadScene("Cabin Room View 2");
+            SceneManager.LoadScene("Drawer View");
             JigsawDone = true;  
         }
     }

@@ -18,7 +18,7 @@ public class Morse : MonoBehaviour
         if (ReceivedString == Answer)
         {
             Debug.Log("Allow");
-            SceneManager.LoadScene("FrontViewEl");
+            SceneManager.LoadScene("Side View 2");
             print("Meet me at the clock? WHat Does that mean? ");
         }
         else

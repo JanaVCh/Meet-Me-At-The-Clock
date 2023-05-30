@@ -1292,6 +1292,9 @@ GameObject:
   - component: {fileID: 581660652}
   - component: {fileID: 581660651}
   - component: {fileID: 581660654}
+  - component: {fileID: 581660657}
+  - component: {fileID: 581660656}
+  - component: {fileID: 581660655}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1324,9 +1327,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 581660629}
+  - {fileID: 581660599}
   selectedCommands:
-  - {fileID: 581660626}
+  - {fileID: 581660655}
   variables:
   - {fileID: 581660578}
   - {fileID: 581660577}
@@ -2087,6 +2090,7 @@ MonoBehaviour:
   - {fileID: 581660632}
   - {fileID: 581660631}
   - {fileID: 581660650}
+  - {fileID: 581660656}
   suppressAllAutoSelections: 0
 --- !u!114 &581660586
 MonoBehaviour:
@@ -2789,6 +2793,7 @@ MonoBehaviour:
   - {fileID: 581660609}
   - {fileID: 581660611}
   - {fileID: 581660612}
+  - {fileID: 581660655}
   suppressAllAutoSelections: 0
 --- !u!114 &581660600
 MonoBehaviour:
@@ -2848,6 +2853,7 @@ MonoBehaviour:
   - {fileID: 581660607}
   - {fileID: 581660608}
   - {fileID: 581660589}
+  - {fileID: 581660657}
   suppressAllAutoSelections: 0
 --- !u!114 &581660602
 MonoBehaviour:
@@ -4326,6 +4332,48 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &581660655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581660537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  indentLevel: 0
+--- !u!114 &581660656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581660537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+--- !u!114 &581660657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581660537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
 --- !u!1 &615130379
 GameObject:
   m_ObjectHideFlags: 0

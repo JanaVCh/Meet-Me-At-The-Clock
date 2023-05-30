@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 894130774}
   - component: {fileID: 894130772}
   - component: {fileID: 894130783}
+  - component: {fileID: 894130784}
   m_Layer: 0
   m_Name: Welcome Flowchart
   m_TagString: Untagged
@@ -357,8 +358,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 894130771}
-  selectedCommands: []
+  - {fileID: 894130777}
+  selectedCommands:
+  - {fileID: 894130784}
   variables: []
   description: 
   stepPause: 0
@@ -515,7 +517,8 @@ MonoBehaviour:
   blockName: New Block
   description: 
   eventHandler: {fileID: 894130776}
-  commandList: []
+  commandList:
+  - {fileID: 894130784}
   suppressAllAutoSelections: 0
 --- !u!4 &894130778
 Transform:
@@ -551,6 +554,26 @@ MonoBehaviour:
     stringVal: Prologue
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &894130784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894130768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1230821064
 GameObject:
   m_ObjectHideFlags: 0

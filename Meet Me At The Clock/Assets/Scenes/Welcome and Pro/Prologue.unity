@@ -515,8 +515,8 @@ GameObject:
   - component: {fileID: 1488240112}
   - component: {fileID: 1488240151}
   - component: {fileID: 1488240154}
-  - component: {fileID: 1488240155}
   - component: {fileID: 1488240156}
+  - component: {fileID: 1488240157}
   m_Layer: 0
   m_Name: Prologue Flowchart
   m_TagString: Untagged
@@ -750,7 +750,7 @@ MonoBehaviour:
   - {fileID: 1488240120}
   - {fileID: 1488240151}
   - {fileID: 1488240154}
-  - {fileID: 1488240155}
+  - {fileID: 1488240157}
   suppressAllAutoSelections: 0
 --- !u!114 &1488240104
 MonoBehaviour:
@@ -779,7 +779,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1488240103}
   selectedCommands:
-  - {fileID: 1488240155}
+  - {fileID: 1488240157}
   variables: []
   description: 
   stepPause: 0
@@ -1804,25 +1804,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &1488240155
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488240095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 57
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Timer
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &1488240156
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1843,6 +1824,25 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1488240157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488240095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Cabin Room View 1
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1668240265
 GameObject:
   m_ObjectHideFlags: 0

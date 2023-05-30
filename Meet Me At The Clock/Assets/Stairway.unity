@@ -847,8 +847,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 863833369}
-  selectedCommands:
-  - {fileID: 863833446}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1585,7 +1584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 76.86708
+    x: 75.307014
     y: 222.81726
     width: 92.90175
     height: 40
@@ -3058,7 +3057,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &863833446
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3085,7 +3084,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863833447
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

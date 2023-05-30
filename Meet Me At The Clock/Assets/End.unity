@@ -396,7 +396,6 @@ GameObject:
   - component: {fileID: 923183225}
   - component: {fileID: 923183227}
   - component: {fileID: 923183228}
-  - component: {fileID: 923183230}
   - component: {fileID: 923183232}
   - component: {fileID: 923183231}
   - component: {fileID: 923183229}
@@ -465,7 +464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50
     y: 51
-    width: 111
+    width: 112.05494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -776,8 +775,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 68
-    y: 157
-    width: 71
+    y: 158
+    width: 71.363174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -803,11 +802,10 @@ MonoBehaviour:
   - {fileID: 923183206}
   - {fileID: 923183205}
   - {fileID: 923183232}
+  - {fileID: 923183239}
   - {fileID: 923183231}
   - {fileID: 923183202}
   - {fileID: 923183238}
-  - {fileID: 923183230}
-  - {fileID: 923183239}
   - {fileID: 923183201}
   - {fileID: 923183200}
   suppressAllAutoSelections: 0
@@ -824,21 +822,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 97.5, y: 13}
+  scrollPos: {x: 103.985275, y: 15.438461}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.9829999
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 923183214}
-  selectedCommands:
-  - {fileID: 923183239}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1051,26 +1047,6 @@ MonoBehaviour:
     booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
---- !u!114 &923183230
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923183196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 142
-  indentLevel: 0
-  spriteRenderer: {fileID: 1465069137}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!114 &923183231
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1244,25 +1220,24 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &923183239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923183196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1465069136}
-  activeState:
+  spriteRenderer: {fileID: 1465069137}
+  _visible:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!1 &1126495783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,7 +1506,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5a0064095ac8b419f82092c9c3c10694, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

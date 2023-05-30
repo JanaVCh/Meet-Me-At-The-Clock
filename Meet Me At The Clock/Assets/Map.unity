@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 1423615357}
   - component: {fileID: 1423615366}
   - component: {fileID: 1423615365}
+  - component: {fileID: 1423615367}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -527,7 +528,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1423615349}
   selectedCommands:
-  - {fileID: 1423615365}
+  - {fileID: 1423615367}
   variables:
   - {fileID: 1423615345}
   - {fileID: 1423615347}
@@ -863,6 +864,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1423615364}
   commandList:
+  - {fileID: 1423615367}
   - {fileID: 1423615363}
   - {fileID: 1423615362}
   - {fileID: 1423615361}
@@ -1592,7 +1594,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1423615365
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1606,7 +1608,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1423615366
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1622,6 +1624,26 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1423615367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423615329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1481464468
 GameObject:
   m_ObjectHideFlags: 0

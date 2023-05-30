@@ -617,7 +617,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1141171234}
   selectedCommands:
-  - {fileID: 1141171248}
+  - {fileID: 1141171247}
   variables:
   - {fileID: 1141171231}
   - {fileID: 1141171233}
@@ -2227,7 +2227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: cabinEscaped
   value: 0
 --- !u!114 &1141171247
@@ -2384,7 +2384,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1141171248
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

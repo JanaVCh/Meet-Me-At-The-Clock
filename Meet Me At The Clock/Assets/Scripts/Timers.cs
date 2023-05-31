@@ -106,7 +106,7 @@ public class Timers : MonoBehaviour
             timeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         }
 
-        Survey = flowchart.GetBooleanVariable("Survey");
+        //Survey = flowchart.GetBooleanVariable("Survey");
 
         if (Survey == true)
         {

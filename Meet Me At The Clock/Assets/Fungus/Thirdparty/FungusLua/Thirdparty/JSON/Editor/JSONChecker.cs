@@ -29,6 +29,7 @@ THE SOFTWARE.
 */
 
 public class JSONChecker : EditorWindow {
+
 	string JSON = @"{
 	""TestObject"": {
 		""SomeText"": ""Blah"",
@@ -50,7 +51,7 @@ public class JSONChecker : EditorWindow {
 	static void Init() {
 		GetWindow(typeof(JSONChecker));
 	}
-	void OnGUI() {
+	void OnGUI(UnityWebRequest.Result result) {
 		JSON = EditorGUILayout.TextArea(JSON);
 		GUI.enabled = !string.IsNullOrEmpty(JSON);
 		if(GUILayout.Button("Check JSON")) {
@@ -73,7 +74,7 @@ public class JSONChecker : EditorWindow {
 #if UNITY_2017_1_OR_NEWER
 			var test = new UnityWebRequest(URL);
 			test.SendWebRequest();
-			while (!test.isDone && !test.isNetworkError);
+			while (!test.isDone && result == UnityWebRequest.Result.ConnectionError);
 #else
 			var test = new WWW(URL);
  			while (!test.isDone) ;

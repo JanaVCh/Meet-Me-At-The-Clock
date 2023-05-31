@@ -5,19 +5,88 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Welcome and Pro/Welcome Scene.unity
     guid: 4c3587fd974d32547b8dc26f4ab65f54
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Welcome and Pro/Prologue.unity
     guid: 39afa972ecd96e04da2bddbc7983d6a8
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Username Input .unity
+    guid: 0eacd4c4c5243418199c57dec2478c4c
   - enabled: 1
     path: Assets/Scenes/Cabin/Cabin Room View 1.unity
     guid: 086842c6f2cf00049b657934b1e060ff
   - enabled: 1
     path: Assets/Scenes/Cabin/Cabin Room View 2.unity
     guid: 8911d296440a9de429b4fe22a1992fa7
+  - enabled: 1
+    path: Assets/Scenes/Cabin/Painting Close Up.unity
+    guid: 35db4883fd3fa9041ace026873c8eb74
+  - enabled: 1
+    path: Assets/Scenes/Cabin/Floor Scene.unity
+    guid: c6ca85a030122b94481cbafc5f9b9843
+  - enabled: 1
+    path: Assets/Scenes/Cabin/Flower Puzzle.unity
+    guid: 3e1b1cde49ae9674dafcd1ef265b1512
+  - enabled: 1
+    path: Assets/Scenes/Cabin/Jigsaw Puzzle/CabinJigsaw.unity
+    guid: 5dde5ac7acb3f7647b2ee13e19dc5a9d
+  - enabled: 1
+    path: Assets/Scenes/Cabin/Drawer/Drawer View.unity
+    guid: 8e29798a2846e475b9db3a426b178289
+  - enabled: 1
+    path: Assets/Map.unity
+    guid: f5de7733c83c54a95ac9d159e8032181
+  - enabled: 1
+    path: Assets/Scripts/Storage Room/StorageDoor.unity
+    guid: a8f8ad56e19b29b4b8aa2ac27b9ac36b
+  - enabled: 1
+    path: Assets/Dark Side Electrical.unity
+    guid: 608254ddd8d9c48dea49d762a1ed9fff
+  - enabled: 1
+    path: Assets/Scenes/Eletrical Room/Keypad.unity
+    guid: fa070af9021cc49e2a7e394a44c333c1
+  - enabled: 1
+    path: Assets/Scenes/Eletrical Room/Electrical Panel.unity
+    guid: 625debe20944c48b7b72cded479b923d
+  - enabled: 1
+    path: Assets/Fungus/Side View 1.unity
+    guid: b753af08db6014244a3428886b83d4e0
+  - enabled: 1
+    path: Assets/Fungus/FrontViewEl.unity
+    guid: a6ff29ad7ed8c48518f432d0c0d3e0bd
+  - enabled: 1
+    path: Assets/Scenes/Eletrical Room/CloseUpDesk.unity
+    guid: f47bd98d8a0ef4cd0abd451ac653f3bc
+  - enabled: 1
+    path: Assets/Fungus/Side View 2.unity
+    guid: 2735c412d34f844e199e98ccc42635df
+  - enabled: 1
+    path: Assets/Scripts/Storage Room/StorageMaze.unity
+    guid: 97386f254a987a34b88221560a811c94
+  - enabled: 1
+    path: Assets/Scripts/Storage Room/StorageRoom.unity
+    guid: 8f610d4b7af21174b8fa5aa4f9fdc417
+  - enabled: 1
+    path: Assets/Scripts/Storage Room/InsideToolBox.unity
+    guid: 460f502680faafc4e90d031a83c931b8
+  - enabled: 1
+    path: Assets/Scripts/Storage Room/StorageTable.unity
+    guid: 9a8640f98e15b86459a39b098a7e53f8
+  - enabled: 1
+    path: Assets/Stairway.unity
+    guid: f05cf451ebec24588a046fe7bb7fb2f0
+  - enabled: 1
+    path: Assets/End.unity
+    guid: c47572bf95c304436ac1839e5db0540a
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: 498d8150f043e49619db36ca203b1a91
+  - enabled: 1
+    path: Assets/Leaderboard.unity
+    guid: 98744bf665c63fd4597988140e394a41
+  - enabled: 1
+    path: Assets/Scenes/Survey.unity
+    guid: 27267300026c6b04dade803be0bd5f31
   m_configObjects: {}

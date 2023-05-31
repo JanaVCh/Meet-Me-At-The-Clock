@@ -16,7 +16,7 @@ public class SendLeaderboard : MonoBehaviour
 
     string URL = "https://docs.google.com/forms/d/1Vh61x_-W5UjyAWHmsUpdOKnCwS7_3IA1r42n8J1xiXw/formResponse";
 
-    public void Send()
+    public void OnMouseDown()
     {
         totalTime = PlayerPrefs.GetFloat("TotalTime", 0);
         Room1 = PlayerPrefs.GetFloat("Room1Time", 0);

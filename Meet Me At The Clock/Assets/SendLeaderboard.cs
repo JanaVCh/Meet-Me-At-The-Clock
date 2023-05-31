@@ -30,7 +30,7 @@ public class SendLeaderboard : MonoBehaviour
     IEnumerator Post(string s1, string totalTime, string Room1, string Room2, string Room3)
     {
         WWWForm form = new WWWForm();
-        form.AddField("entry.315825453", s1); 
+        form.AddField("entry.315825453", s1);
         form.AddField("entry.1106318438", totalTime);
         form.AddField("entry.526760649", Room1);
         form.AddField("entry.1887297910", Room2);

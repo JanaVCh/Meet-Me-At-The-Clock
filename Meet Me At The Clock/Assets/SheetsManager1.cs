@@ -84,10 +84,19 @@ public class SheetsManager1 : MonoBehaviour
         }
     }
 
+    public void CreateEntry(List<object> data, string range)
+    {
+        var valueRange = new ValueRange();
+        valueRange.Values = new List<IList<object>> { data };
+
+        var appendRequest = service.Spreadsheets.Values.Append(valueRange, SpreadsheetID, range);
+        appendRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
+        var appendResponse = appendRequest.Execute();
+    }
+
+
     public void DisplayLeaderboard()
     {
-
-
         float minutes1 = Mathf.FloorToInt(int.Parse(Times[0]) / 60);
         float seconds1 = Mathf.FloorToInt(int.Parse(Times[0]) % 60);
 

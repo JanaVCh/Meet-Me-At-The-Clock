@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Room1Complete : MonoBehaviour
+public class Room2Complete : MonoBehaviour
 {
     public GameObject TimerManager;
     private Timers room1Timer;

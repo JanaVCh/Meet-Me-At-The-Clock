@@ -1014,6 +1014,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1141569309}
+        m_TargetAssemblyTypeName: SendLeaderboard, Assembly-CSharp
+        m_MethodName: Send
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &615758109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1666,6 +1678,7 @@ GameObject:
   - component: {fileID: 1141569305}
   - component: {fileID: 1141569304}
   - component: {fileID: 1141569308}
+  - component: {fileID: 1141569309}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1787,6 +1800,19 @@ MonoBehaviour:
   Q5: {fileID: 907183601}
   Q6: {fileID: 988283638}
   BASE_URL: https://docs.google.com/forms/u/1/d/e/1FAIpQLScDaB5yxHDXYh6WcdS988tlfeEi1ARkus38jhDNSOTIg2q1rg/formResponse
+--- !u!114 &1141569309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141569302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5695555b009684853b761b0665e44299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Username: {fileID: 0}
 --- !u!1 &1285017207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,7 +2284,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Would You Change Anything About the Game?
+  m_Text: What is your Name?
 --- !u!222 &1468027071
 CanvasRenderer:
   m_ObjectHideFlags: 0

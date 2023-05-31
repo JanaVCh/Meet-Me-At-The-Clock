@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 494836673}
   - component: {fileID: 494836672}
   - component: {fileID: 494836671}
+  - component: {fileID: 494836675}
   m_Layer: 0
   m_Name: Vent
   m_TagString: Untagged
@@ -377,6 +378,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &494836675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494836670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d136bbd850a0d4d1bba0712970685264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &668849202
 GameObject:
   m_ObjectHideFlags: 1
@@ -406,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1611308770}
 --- !u!4 &668849204
 Transform:
   m_ObjectHideFlags: 1
@@ -1423,8 +1436,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1611308799}
-  selectedCommands:
-  - {fileID: 1611308807}
+  selectedCommands: []
   variables:
   - {fileID: 1611308804}
   description: 

@@ -396,7 +396,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("ElPuzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint1Used = true;
             flowchart.SetBooleanVariable("ElHint1Used", Hint1Used);
         }
@@ -410,7 +416,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint2Used = true;
             flowchart.SetBooleanVariable("Hint2Used", Hint2Used);
         }
@@ -424,7 +436,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint3Used = true;
             flowchart.SetBooleanVariable("Hint3Used", Hint3Used);
         }
@@ -440,7 +458,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "1";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint1Used = true;
             flowchart.SetBooleanVariable("Act2Hint1Used", Act2Hint1Used);
         }
@@ -454,7 +478,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "2";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 120;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint2Used = true;
             flowchart.SetBooleanVariable("Act2Hint2Used", Act2Hint2Used);
         }
@@ -467,7 +497,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "3";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 120;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint3Used = true;
             flowchart.SetBooleanVariable("Act2Hint3Used", Act2Hint3Used);
         }
@@ -483,7 +519,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "1";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint1Used = true;
             flowchart.SetBooleanVariable("Act3Hint1Used", Act3Hint1Used);
         }
@@ -496,7 +538,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "2";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint2Used = true;
             flowchart.SetBooleanVariable("Act3Hint2Used", Act3Hint2Used);
         }
@@ -509,7 +557,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "3";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint3Used = true;
             flowchart.SetBooleanVariable("Act3Hint3Used", Act3Hint3Used);
         }
@@ -525,7 +579,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint1Used = true;
             flowchart.SetBooleanVariable("Hint1Used", Hint1Used);
         }
@@ -538,7 +598,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint2Used = true;
             flowchart.SetBooleanVariable("Hint2Used", Hint2Used);
         }
@@ -551,7 +617,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle1Hints += 1;
             flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Hint3Used = true;
             flowchart.SetBooleanVariable("Hint3Used", Hint3Used);
         }
@@ -567,7 +639,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "1";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint1Used = true;
             flowchart.SetBooleanVariable("Act2Hint1Used", Act2Hint1Used);
         }
@@ -580,7 +658,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "2";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 120;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint2Used = true;
             flowchart.SetBooleanVariable("Act2Hint2Used", Act2Hint2Used);
         }
@@ -593,7 +677,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle2Hints = "3";
             flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
-            currentTime = currentTime - 120;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act2Hint3Used = true;
             flowchart.SetBooleanVariable("Act2Hint3Used", Act2Hint3Used);
         }
@@ -609,7 +699,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "1";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint1Used = true;
             flowchart.SetBooleanVariable("Act3Hint1Used", Act3Hint1Used);
         }
@@ -622,7 +718,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "2";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint2Used = true;
             flowchart.SetBooleanVariable("Act3Hint2Used", Act3Hint2Used);
         }
@@ -635,7 +737,13 @@ public class Timers : MonoBehaviour
         {
             Puzzle3Hints = "3";
             flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
-            currentTime = currentTime - 60;
+
+            currentTime = PlayerPrefs.GetFloat("Time", currentTime);
+            currentTime -= 60;
+            PlayerPrefs.SetFloat("Time", currentTime);
+
+            Invoke("Wait1", 0.1f);
+
             Act3Hint3Used = true;
             flowchart.SetBooleanVariable("Act3Hint3Used", Act3Hint3Used);
         }

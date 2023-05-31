@@ -263,6 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c14fb2f415854b939c1d292909b8605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TimerManager: {fileID: 0}
 --- !u!1 &274535197
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +848,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1141171234}
   selectedCommands: []
   variables:
   - {fileID: 1141171231}

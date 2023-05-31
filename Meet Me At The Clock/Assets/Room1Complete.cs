@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Room1Complete : MonoBehaviour
 {
     public GameObject TimerManager;
-    private Timers
 
 
     public void takeTime()

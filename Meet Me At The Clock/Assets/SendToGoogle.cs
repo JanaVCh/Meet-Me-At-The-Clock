@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SendToGoogle : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class SendToGoogle : MonoBehaviour
         Qu6 = Q6.GetComponent<InputField>().text;
 
         StartCoroutine(Post(Qu1, Qu2, Qu3, Qu4, Qu5, Qu6));
+        SceneManager.LoadScene("Leaderboard");
     }
 
 

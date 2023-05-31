@@ -91,7 +91,7 @@ public class Timers : MonoBehaviour
                 timerActive = false;
                 currentTime = 0;
                 Debug.Log("Timer finished");
-                SceneManager.LoadScene("Survey");
+                SceneManager.LoadScene("GameOver");
             }
         }
         

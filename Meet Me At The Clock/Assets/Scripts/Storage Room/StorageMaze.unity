@@ -2621,6 +2621,7 @@ GameObject:
   - component: {fileID: 1147065141}
   - component: {fileID: 1147065140}
   - component: {fileID: 1147065139}
+  - component: {fileID: 1147065143}
   m_Layer: 5
   m_Name: 'Canvas '
   m_TagString: Untagged
@@ -2711,6 +2712,22 @@ RectTransform:
   m_AnchoredPosition: {x: 1920, y: 1080}
   m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1147065143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147065138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMinutes: 30
+  timerText: {fileID: 0}
+  flowchart: {fileID: 1254423016}
+  timeText: {fileID: 1899776143}
 --- !u!1 &1179511530
 GameObject:
   m_ObjectHideFlags: 1
@@ -2807,6 +2824,9 @@ GameObject:
   - component: {fileID: 1254423065}
   - component: {fileID: 1254423064}
   - component: {fileID: 1254423067}
+  - component: {fileID: 1254423070}
+  - component: {fileID: 1254423069}
+  - component: {fileID: 1254423068}
   m_Layer: 0
   m_Name: Maze Flowchart
   m_TagString: Untagged
@@ -2891,7 +2911,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1254423028}
   selectedCommands:
-  - {fileID: 1254423064}
+  - {fileID: 1254423068}
   variables:
   - {fileID: 1254423027}
   - {fileID: 1254423026}
@@ -3064,6 +3084,7 @@ MonoBehaviour:
   - {fileID: 1254423029}
   - {fileID: 1254423061}
   - {fileID: 1254423064}
+  - {fileID: 1254423068}
   suppressAllAutoSelections: 0
 --- !u!114 &1254423029
 MonoBehaviour:
@@ -4164,6 +4185,7 @@ MonoBehaviour:
   - {fileID: 1254423032}
   - {fileID: 1254423060}
   - {fileID: 1254423065}
+  - {fileID: 1254423069}
   suppressAllAutoSelections: 0
 --- !u!114 &1254423046
 MonoBehaviour:
@@ -4219,6 +4241,7 @@ MonoBehaviour:
   - {fileID: 1254423033}
   - {fileID: 1254423058}
   - {fileID: 1254423066}
+  - {fileID: 1254423070}
   suppressAllAutoSelections: 0
 --- !u!114 &1254423049
 MonoBehaviour:
@@ -5504,6 +5527,57 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1254423068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254423013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  targetObject: {fileID: 1147065138}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &1254423069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254423013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  targetObject: {fileID: 1147065138}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &1254423070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254423013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 216
+  indentLevel: 0
+  targetObject: {fileID: 1147065138}
+  methodName: subtractTime
+  delay: 0
 --- !u!1 &1255029855
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,7 +6853,6 @@ GameObject:
   - component: {fileID: 1899776141}
   - component: {fileID: 1899776144}
   - component: {fileID: 1899776143}
-  - component: {fileID: 1899776142}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6807,22 +6880,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1911.9503, y: -1075.4229}
   m_SizeDelta: {x: 1.3939, y: 0.5878}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1899776142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899776140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMinutes: 30
-  timerText: {fileID: 0}
-  flowchart: {fileID: 0}
-  timeText: {fileID: 1899776143}
 --- !u!114 &1899776143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7239,7 +7296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088039043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4025121, y: -0.56395006, z: 0}
+  m_LocalPosition: {x: 1.7900915, y: -0.56349015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

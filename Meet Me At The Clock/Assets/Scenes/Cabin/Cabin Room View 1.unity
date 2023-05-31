@@ -359,6 +359,9 @@ GameObject:
   - component: {fileID: 56342358}
   - component: {fileID: 56342357}
   - component: {fileID: 56342360}
+  - component: {fileID: 56342363}
+  - component: {fileID: 56342362}
+  - component: {fileID: 56342361}
   m_Layer: 0
   m_Name: Cabin Flowchart
   m_TagString: Untagged
@@ -453,7 +456,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 56342337}
+  - {fileID: 56342213}
   selectedCommands: []
   variables:
   - {fileID: 56342189}
@@ -4582,6 +4585,7 @@ MonoBehaviour:
   - {fileID: 56342282}
   - {fileID: 56342356}
   - {fileID: 56342281}
+  - {fileID: 56342361}
   - {fileID: 56342280}
   - {fileID: 56342279}
   - {fileID: 56342278}
@@ -4591,6 +4595,7 @@ MonoBehaviour:
   - {fileID: 56342274}
   - {fileID: 56342273}
   - {fileID: 56342272}
+  - {fileID: 56342362}
   suppressAllAutoSelections: 0
 --- !u!114 &56342284
 MonoBehaviour:
@@ -5882,8 +5887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1029.243
-    y: 223.52591
+    x: 1031.243
+    y: 224.52591
     width: 107
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5895,6 +5900,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 56342320}
   - {fileID: 56342319}
+  - {fileID: 56342363}
   - {fileID: 56342318}
   - {fileID: 56342317}
   - {fileID: 56342316}
@@ -7050,6 +7056,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 239
+  indentLevel: 0
+  targetObject: {fileID: 309250210}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &56342361
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56342107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  targetObject: {fileID: 309250210}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &56342362
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56342107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &56342363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56342107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 240
   indentLevel: 0
   targetObject: {fileID: 309250210}
   methodName: subtractTime

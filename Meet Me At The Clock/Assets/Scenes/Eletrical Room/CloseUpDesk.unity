@@ -639,8 +639,9 @@ GameObject:
   - component: {fileID: 475545091}
   - component: {fileID: 475545090}
   - component: {fileID: 475545089}
+  - component: {fileID: 475545093}
   m_Layer: 5
-  m_Name: 'Canvas  '
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,6 +730,22 @@ RectTransform:
   m_AnchoredPosition: {x: 1920, y: 1080}
   m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &475545093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475545088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMinutes: 30
+  timerText: {fileID: 0}
+  flowchart: {fileID: 796952531}
+  timeText: {fileID: 1834003308}
 --- !u!1 &490709141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,6 +1309,11 @@ GameObject:
   - component: {fileID: 796952652}
   - component: {fileID: 796952654}
   - component: {fileID: 796952653}
+  - component: {fileID: 796952656}
+  - component: {fileID: 796952655}
+  - component: {fileID: 796952659}
+  - component: {fileID: 796952658}
+  - component: {fileID: 796952657}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1371,8 +1393,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 796952579}
+  selectedCommands:
+  - {fileID: 796952652}
   variables:
   - {fileID: 796952622}
   - {fileID: 796952621}
@@ -1953,8 +1977,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 796952575}
-  - {fileID: 796952652}
+  - {fileID: 796952659}
   - {fileID: 796952626}
+  - {fileID: 796952652}
   suppressAllAutoSelections: 0
 --- !u!114 &796952581
 MonoBehaviour:
@@ -2747,7 +2772,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 402.11926
-    y: 166.98325
+    y: 162.59407
     width: 101.20697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2758,7 +2783,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 796952615}
+  - {fileID: 796952658}
   - {fileID: 796952648}
+  - {fileID: 796952656}
   suppressAllAutoSelections: 0
 --- !u!114 &796952618
 MonoBehaviour:
@@ -3621,8 +3648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 522.9477
-    y: 163.95908
+    x: 524.41077
+    y: 161.03296
     width: 101.93849
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3633,7 +3660,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 796952640}
+  - {fileID: 796952657}
   - {fileID: 796952651}
+  - {fileID: 796952655}
   suppressAllAutoSelections: 0
 --- !u!114 &796952644
 MonoBehaviour:
@@ -4083,7 +4112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   key: Hint3Done
   value: 0
 --- !u!114 &796952651
@@ -4252,8 +4281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  targetObject: {fileID: 0}
-  methodName: TimeSubtractor
+  targetObject: {fileID: 475545088}
+  methodName: subtractTimer
   delay: 0
 --- !u!114 &796952653
 MonoBehaviour:
@@ -4289,6 +4318,103 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 05ee5bc13d4db4f298a1f5fcad92f438, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &796952655
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  indentLevel: 0
+  targetObject: {fileID: 475545088}
+  methodName: subtractTimer
+  delay: 0
+--- !u!114 &796952656
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  targetObject: {fileID: 475545088}
+  methodName: subtractTimer
+  delay: 0
+--- !u!114 &796952657
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 813529720}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &796952658
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1615010303}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &796952659
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1279217372}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &805239275
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,7 +5578,6 @@ GameObject:
   - component: {fileID: 1834003306}
   - component: {fileID: 1834003309}
   - component: {fileID: 1834003308}
-  - component: {fileID: 1834003307}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5480,22 +5605,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1911.9503, y: -1075.4229}
   m_SizeDelta: {x: 1.3939, y: 0.5878}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1834003307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834003305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMinutes: 30
-  timerText: {fileID: 0}
-  flowchart: {fileID: 0}
-  timeText: {fileID: 1834003308}
 --- !u!114 &1834003308
 MonoBehaviour:
   m_ObjectHideFlags: 0

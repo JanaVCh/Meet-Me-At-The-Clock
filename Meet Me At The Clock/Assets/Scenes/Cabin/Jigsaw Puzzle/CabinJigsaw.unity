@@ -1489,7 +1489,6 @@ GameObject:
   - component: {fileID: 882308397}
   - component: {fileID: 882308400}
   - component: {fileID: 882308399}
-  - component: {fileID: 882308398}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1517,22 +1516,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1912.1, y: -1075.41}
   m_SizeDelta: {x: 1.3939, y: 0.5878}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &882308398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882308396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMinutes: 30
-  timerText: {fileID: 0}
-  flowchart: {fileID: 0}
-  timeText: {fileID: 882308399}
 --- !u!114 &882308399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,7 +2161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1851679773}
 --- !u!4 &1151234325
 Transform:
   m_ObjectHideFlags: 1
@@ -2913,6 +2896,7 @@ GameObject:
   - component: {fileID: 1605152477}
   - component: {fileID: 1605152476}
   - component: {fileID: 1605152475}
+  - component: {fileID: 1605152479}
   m_Layer: 5
   m_Name: 'Canvas '
   m_TagString: Untagged
@@ -2970,7 +2954,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1597503216}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3003,6 +2987,22 @@ RectTransform:
   m_AnchoredPosition: {x: 1920, y: 1080}
   m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1605152479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605152474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMinutes: 30
+  timerText: {fileID: 0}
+  flowchart: {fileID: 1851679773}
+  timeText: {fileID: 882308399}
 --- !u!1 &1640672449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3247,6 +3247,9 @@ GameObject:
   - component: {fileID: 1851679837}
   - component: {fileID: 1851679836}
   - component: {fileID: 1851679835}
+  - component: {fileID: 1851679840}
+  - component: {fileID: 1851679839}
+  - component: {fileID: 1851679838}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3324,8 +3327,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1851679802}
-  selectedCommands: []
+  - {fileID: 1851679805}
+  selectedCommands:
+  - {fileID: 1851679811}
   variables:
   - {fileID: 1851679782}
   - {fileID: 1851679781}
@@ -3553,6 +3557,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1851679788}
+  - {fileID: 1851679840}
   - {fileID: 1851679804}
   - {fileID: 1851679783}
   - {fileID: 1851679785}
@@ -4470,6 +4475,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1851679811}
+  - {fileID: 1851679838}
   - {fileID: 1851679810}
   - {fileID: 1851679809}
   - {fileID: 1851679808}
@@ -5634,6 +5640,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1851679826}
+  - {fileID: 1851679839}
   - {fileID: 1851679825}
   - {fileID: 1851679824}
   - {fileID: 1851679823}
@@ -6263,6 +6270,57 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1851679838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851679770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  targetObject: {fileID: 1605152474}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &1851679839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851679770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  targetObject: {fileID: 1605152474}
+  methodName: subtractTime
+  delay: 0
+--- !u!114 &1851679840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851679770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  targetObject: {fileID: 1605152474}
+  methodName: subtractTime
+  delay: 0
 --- !u!1 &1949127481
 GameObject:
   m_ObjectHideFlags: 0

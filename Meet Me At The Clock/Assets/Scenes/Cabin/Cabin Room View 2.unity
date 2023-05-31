@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 37025725}
   - component: {fileID: 37025724}
   - component: {fileID: 37025723}
+  - component: {fileID: 37025727}
   m_Layer: 0
   m_Name: Door Click
   m_TagString: Untagged
@@ -250,6 +251,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &37025727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37025722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c14fb2f415854b939c1d292909b8605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &274535197
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +569,6 @@ GameObject:
   - component: {fileID: 681542244}
   - component: {fileID: 681542247}
   - component: {fileID: 681542246}
-  - component: {fileID: 681542245}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -584,22 +596,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1912.1003, y: -1075.3828}
   m_SizeDelta: {x: 1.3939, y: 0.5878}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &681542245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681542243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMinutes: 30
-  timerText: {fileID: 0}
-  flowchart: {fileID: 0}
-  timeText: {fileID: 681542246}
 --- !u!114 &681542246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,10 +847,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1141171234}
-  selectedCommands:
-  - {fileID: 1141171249}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1141171231}
   - {fileID: 1141171233}
@@ -1556,11 +1550,11 @@ MonoBehaviour:
   - {fileID: 1141171238}
   - {fileID: 1141171237}
   - {fileID: 1141171236}
+  - {fileID: 1141171249}
   - {fileID: 1141171247}
   - {fileID: 1141171248}
   - {fileID: 1141171235}
   - {fileID: 1141171242}
-  - {fileID: 1141171249}
   suppressAllAutoSelections: 0
 --- !u!114 &1141171235
 MonoBehaviour:
@@ -2653,9 +2647,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 64
-  indentLevel: 0
-  targetObject: {fileID: 0}
-  methodName: 
+  indentLevel: 1
+  targetObject: {fileID: 37025722}
+  methodName: takeTime
   delay: 0
 --- !u!1 &1271833686
 GameObject:
@@ -2669,8 +2663,9 @@ GameObject:
   - component: {fileID: 1271833689}
   - component: {fileID: 1271833688}
   - component: {fileID: 1271833687}
+  - component: {fileID: 1271833691}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2759,6 +2754,22 @@ RectTransform:
   m_AnchoredPosition: {x: 1920, y: 1080}
   m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1271833691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271833686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e47fe80a40a4d9ea92f79b6058fc8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMinutes: 30
+  timerText: {fileID: 0}
+  flowchart: {fileID: 1141171176}
+  timeText: {fileID: 681542246}
 --- !u!1 &1358384789
 GameObject:
   m_ObjectHideFlags: 0

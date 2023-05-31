@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1173362612}
 --- !u!4 &335298539
 Transform:
   m_ObjectHideFlags: 1
@@ -478,6 +478,9 @@ GameObject:
   - component: {fileID: 1173362633}
   - component: {fileID: 1173362638}
   - component: {fileID: 1173362637}
+  - component: {fileID: 1173362639}
+  - component: {fileID: 1173362641}
+  - component: {fileID: 1173362640}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -509,10 +512,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1173362619}
-  selectedCommands:
-  - {fileID: 1173362637}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1173362638}
   description: 
@@ -558,7 +559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -57.021244
+    x: -58.021244
     y: 76.264336
     width: 137
     height: 40
@@ -569,6 +570,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1173362616}
   commandList:
+  - {fileID: 1173362641}
   - {fileID: 1173362629}
   - {fileID: 1173362628}
   - {fileID: 1173362615}
@@ -672,6 +674,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1173362617}
   - {fileID: 1173362637}
+  - {fileID: 1173362639}
   suppressAllAutoSelections: 0
 --- !u!4 &1173362620
 Transform:
@@ -745,7 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -56.528824
+    x: -58.528824
     y: 141.69823
     width: 116
     height: 40
@@ -818,7 +821,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 174.71246
-    y: 41.698227
+    y: 40.698227
     width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -906,7 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 167.71246
+    x: 165.71246
     y: 120.69823
     width: 107
     height: 40
@@ -917,6 +920,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1173362636}
   commandList:
+  - {fileID: 1173362640}
   - {fileID: 1173362635}
   - {fileID: 1173362633}
   suppressAllAutoSelections: 0
@@ -1123,6 +1127,52 @@ MonoBehaviour:
   scope: 2
   key: inElectrical
   value: 0
+--- !u!114 &1173362639
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: b89b7325cad96483c9454e7605951c6a, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1173362640
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+--- !u!114 &1173362641
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173362611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
 --- !u!1 &1295051871
 GameObject:
   m_ObjectHideFlags: 0

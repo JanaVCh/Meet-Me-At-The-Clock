@@ -58,7 +58,7 @@ public class SendToGoogle : MonoBehaviour
         Qu6 = Q6.GetComponent<InputField>().text;
 
         StartCoroutine(Post(Qu1, Qu2, Qu3, Qu4, Qu5, Qu6));
-        SceneManager.LoadScene("Leaderboard");
+        SceneManager.LoadScene("Welcome Scene");
     }
 
 

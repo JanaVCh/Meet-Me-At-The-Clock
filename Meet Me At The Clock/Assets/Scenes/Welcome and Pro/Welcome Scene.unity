@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -224,6 +225,39 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &780208967
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +360,8 @@ GameObject:
   - component: {fileID: 894130772}
   - component: {fileID: 894130783}
   - component: {fileID: 894130784}
+  - component: {fileID: 894130785}
+  - component: {fileID: 894130786}
   m_Layer: 0
   m_Name: Welcome Flowchart
   m_TagString: Untagged
@@ -346,7 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -183.81342, y: 74.7775}
+  scrollPos: {x: 84.82971, y: 228.21973}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -358,9 +394,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 894130777}
+  - {fileID: 894130771}
   selectedCommands:
-  - {fileID: 894130784}
+  - {fileID: 894130786}
   variables: []
   description: 
   stepPause: 0
@@ -386,8 +422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 218.67029
-    y: 45.78028
+    x: 217.67029
+    y: 43.78028
     width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -397,6 +433,7 @@ MonoBehaviour:
   description: Starts Game
   eventHandler: {fileID: 894130773}
   commandList:
+  - {fileID: 894130786}
   - {fileID: 894130772}
   - {fileID: 894130783}
   suppressAllAutoSelections: 0
@@ -507,7 +544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 470.43964
+    x: 471.43964
     y: 138.4725
     width: 111
     height: 40
@@ -519,6 +556,7 @@ MonoBehaviour:
   eventHandler: {fileID: 894130776}
   commandList:
   - {fileID: 894130784}
+  - {fileID: 894130785}
   suppressAllAutoSelections: 0
 --- !u!4 &894130778
 Transform:
@@ -556,7 +594,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &894130784
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -574,6 +612,38 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &894130785
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894130768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: d9416887e3efb44ca8542d799be24608, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &894130786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894130768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
 --- !u!1 &1230821064
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 894130769}
 --- !u!4 &1616732551
 Transform:
   m_ObjectHideFlags: 1

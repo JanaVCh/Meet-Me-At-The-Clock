@@ -176,8 +176,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 632849523}
-  selectedCommands: []
+  - {fileID: 632849529}
+  selectedCommands:
+  - {fileID: 632849530}
   variables: []
   description: 
   stepPause: 0
@@ -379,7 +380,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Cabin Room View 1
+    stringVal: Survey
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &632849531
@@ -431,7 +432,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &632849533
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

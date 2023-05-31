@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1141171176}
 --- !u!4 &1066061198
 Transform:
   m_ObjectHideFlags: 1
@@ -789,6 +789,7 @@ GameObject:
   - component: {fileID: 1141171246}
   - component: {fileID: 1141171247}
   - component: {fileID: 1141171248}
+  - component: {fileID: 1141171249}
   m_Layer: 0
   m_Name: Cabin Flowchart
   m_TagString: Untagged
@@ -853,7 +854,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1141171234}
   selectedCommands:
-  - {fileID: 1141171247}
+  - {fileID: 1141171249}
   variables:
   - {fileID: 1141171231}
   - {fileID: 1141171233}
@@ -1559,6 +1560,7 @@ MonoBehaviour:
   - {fileID: 1141171248}
   - {fileID: 1141171235}
   - {fileID: 1141171242}
+  - {fileID: 1141171249}
   suppressAllAutoSelections: 0
 --- !u!114 &1141171235
 MonoBehaviour:
@@ -2638,6 +2640,23 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1141171249
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141171173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  methodName: 
+  delay: 0
 --- !u!1 &1271833686
 GameObject:
   m_ObjectHideFlags: 0

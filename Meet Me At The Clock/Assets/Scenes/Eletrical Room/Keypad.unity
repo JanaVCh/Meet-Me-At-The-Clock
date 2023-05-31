@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 90.91489, y: 103.15602}
+  scrollPos: {x: 160.30014, y: -231.59737}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 569
@@ -1162,9 +1162,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 524102374}
-  selectedCommands:
-  - {fileID: 524102478}
+  - {fileID: 524102468}
+  selectedCommands: []
   variables:
   - {fileID: 524102450}
   - {fileID: 524102449}
@@ -2203,7 +2202,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 56.859802
-    y: 514.39667
+    y: 515.61395
     width: 101.12596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2256,7 +2255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 1
-  key: Hint3Done
+  key: Hint3Used
   value: 0
 --- !u!114 &524102449
 MonoBehaviour:
@@ -2271,7 +2270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 1
-  key: Hint2Done
+  key: Hint2Used
   value: 0
 --- !u!114 &524102450
 MonoBehaviour:
@@ -2286,7 +2285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: ElHint1Used
+  key: Hint1Used
   value: 1
 --- !u!114 &524102451
 MonoBehaviour:

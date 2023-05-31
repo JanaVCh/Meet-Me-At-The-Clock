@@ -26,6 +26,8 @@ public class TimerScript : MonoBehaviour
         UpdateTimerText();
     }
 
+
+
     private void UpdateTimerText()
     {
         int minutes = Mathf.FloorToInt(countdownTime / 60);

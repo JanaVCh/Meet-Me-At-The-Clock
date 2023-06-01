@@ -239,8 +239,7 @@ MonoBehaviour:
   nameText: Lawrence (You)
   nameColor: {r: 0.5294118, g: 0.015686275, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -375,8 +374,7 @@ MonoBehaviour:
   nameText: ???
   nameColor: {r: 0.16660734, g: 0.27483088, b: 0.3018868, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: ce941cd4f2692d14f9146411516252a6, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Normal
@@ -899,9 +897,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 863833341}
-  selectedCommands:
-  - {fileID: 863833433}
+  - {fileID: 863833369}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1638,8 +1635,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 76.86708
-    y: 222.81726
+    x: 78.42717
+    y: 221.2572
     width: 92.90175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1819,7 +1816,7 @@ MonoBehaviour:
   storyText: I got the artifact!
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1846,7 +1843,7 @@ MonoBehaviour:
   storyText: I need to get out of here, the water is rising fast!
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1920,7 +1917,7 @@ MonoBehaviour:
   storyText: "You\u2019ve seen me get out of every other room\u2026 "
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1976,7 +1973,7 @@ MonoBehaviour:
     start. "
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2030,7 +2027,7 @@ MonoBehaviour:
   storyText: Alright... lets do this together
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2058,7 +2055,7 @@ MonoBehaviour:
     down as gentlemen. Adieu, boys!
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2086,7 +2083,7 @@ MonoBehaviour:
     wanted\u2026 well, I would like a brandy"
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2113,7 +2110,7 @@ MonoBehaviour:
   storyText: "But what about you? Donch\u2019a have something that you want?"
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2140,7 +2137,7 @@ MonoBehaviour:
   storyText: "But that can be changed. Can\u2019t you two both use it? "
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2168,7 +2165,7 @@ MonoBehaviour:
     for tragedy
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2195,7 +2192,7 @@ MonoBehaviour:
   storyText: The artifact has been in my family for as long as we could remember
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2222,7 +2219,7 @@ MonoBehaviour:
   storyText: I hear you
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2304,7 +2301,7 @@ MonoBehaviour:
   storyText: "You\u2019re working for him I assume."
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2359,7 +2356,7 @@ MonoBehaviour:
     Not some man like myself"
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2413,7 +2410,7 @@ MonoBehaviour:
   storyText: Wait, why HAVE you been everywhere I have?
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2748,7 +2745,7 @@ MonoBehaviour:
   storyText: But be careful, the greater the wish the greater the conseque-
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2862,7 +2859,7 @@ MonoBehaviour:
   storyText: "Use it and you\u2019ll have your way out"
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2889,7 +2886,7 @@ MonoBehaviour:
   storyText: It holds more power than the lot of you could ever fathom
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2916,7 +2913,7 @@ MonoBehaviour:
   storyText: But it was stolen and hidden one night
   description: 
   character: {fileID: 1846650793}
-  portrait: {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3025,7 +3022,7 @@ MonoBehaviour:
   storyText: "You of all people would know that I\u2019m capable. I have no choi-"
   description: 
   character: {fileID: 14952838}
-  portrait: {fileID: 21300000, guid: e5b422e3de36c4e17a7330c3c798e6d0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3778,8 +3775,7 @@ MonoBehaviour:
   nameText: Guggenheim
   nameColor: {r: 0.21176471, g: 0.42745098, b: 0.67058825, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: ffa086953332b8b409c98e4ffe1737dd, type: 3}
+  portraits: []
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 

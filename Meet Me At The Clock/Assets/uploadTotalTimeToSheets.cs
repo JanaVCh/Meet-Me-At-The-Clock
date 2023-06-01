@@ -34,7 +34,7 @@ public class uploadTotalTimeToSheets : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("entry.315825453", n);
         form.AddField("entry.1106318438", t);
-
+        Debug.Log("Post Entries");
 
 
 

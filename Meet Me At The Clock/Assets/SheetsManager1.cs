@@ -63,7 +63,7 @@ public class SheetsManager1 : MonoBehaviour
 
     static void ReadEntries()
     {
-        var range = $"{sheet}!A1:B5";
+        var range = $"{sheet}!A2:B6";
         var request = service.Spreadsheets.Values.Get(SpreadsheetID, range);
 
         var response = request.Execute();
@@ -97,28 +97,28 @@ public class SheetsManager1 : MonoBehaviour
 
     public void DisplayLeaderboard()
     {
-        float minutes1 = Mathf.FloorToInt(int.Parse(Times[0]) / 60);
-        float seconds1 = Mathf.FloorToInt(int.Parse(Times[0]) % 60);
+        float minutes1 = Mathf.FloorToInt(float.Parse(Times[0]) / 60);
+        float seconds1 = Mathf.FloorToInt(float.Parse(Times[0]) % 60);
 
         Time1.text = string.Format("{0:00}:{1:00}", minutes1, seconds1);
 
-        float minutes2 = Mathf.FloorToInt(int.Parse(Times[1]) / 60);
-        float seconds2 = Mathf.FloorToInt(int.Parse(Times[1]) % 60);
+        float minutes2 = Mathf.FloorToInt(float.Parse(Times[1]) / 60);
+        float seconds2 = Mathf.FloorToInt(float.Parse(Times[1]) % 60);
 
         Time2.text = string.Format("{0:00}:{1:00}", minutes2, seconds2);
 
-        float minutes3 = Mathf.FloorToInt(int.Parse(Times[2]) / 60);
-        float seconds3 = Mathf.FloorToInt(int.Parse(Times[2]) % 60);
+        float minutes3 = Mathf.FloorToInt(float.Parse(Times[2]) / 60);
+        float seconds3 = Mathf.FloorToInt(float.Parse(Times[2]) % 60);
 
         Time3.text = string.Format("{0:00}:{1:00}", minutes3, seconds3);
 
-        float minutes4 = Mathf.FloorToInt(int.Parse(Times[3]) / 60);
-        float seconds4 = Mathf.FloorToInt(int.Parse(Times[3]) % 60);
+        float minutes4 = Mathf.FloorToInt(float.Parse(Times[3]) / 60);
+        float seconds4 = Mathf.FloorToInt(float.Parse(Times[3]) % 60);
 
         Time4.text = string.Format("{0:00}:{1:00}", minutes4, seconds4);
 
-        float minutes5 = Mathf.FloorToInt(int.Parse(Times[4]) / 60);
-        float seconds5 = Mathf.FloorToInt(int.Parse(Times[4]) % 60);
+        float minutes5 = Mathf.FloorToInt(float.Parse(Times[4]) / 60);
+        float seconds5 = Mathf.FloorToInt(float.Parse(Times[4]) % 60);
 
         Time5.text = string.Format("{0:00}:{1:00}", minutes5, seconds5);
 

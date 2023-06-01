@@ -787,7 +787,6 @@ GameObject:
   - component: {fileID: 1141171247}
   - component: {fileID: 1141171248}
   - component: {fileID: 1141171249}
-  - component: {fileID: 1141171250}
   - component: {fileID: 1141171251}
   m_Layer: 0
   m_Name: Cabin Flowchart
@@ -825,7 +824,6 @@ MonoBehaviour:
   - {fileID: 1141171188}
   - {fileID: 1141171183}
   - {fileID: 1141171184}
-  - {fileID: 1141171250}
   suppressAllAutoSelections: 0
 --- !u!114 &1141171176
 MonoBehaviour:
@@ -852,8 +850,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1141171175}
-  selectedCommands: []
+  - {fileID: 1141171234}
+  selectedCommands:
+  - {fileID: 1141171235}
   variables:
   - {fileID: 1141171231}
   - {fileID: 1141171233}
@@ -2657,24 +2656,6 @@ MonoBehaviour:
   targetObject: {fileID: 37025722}
   methodName: takeTime
   delay: 0
---- !u!114 &1141171250
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141171173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 6ddf0c5e86efb44508628a469b16ccca, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &1141171251
 MonoBehaviour:
   m_ObjectHideFlags: 2

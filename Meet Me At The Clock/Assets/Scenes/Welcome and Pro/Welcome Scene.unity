@@ -758,6 +758,7 @@ GameObject:
   - component: {fileID: 894130786}
   - component: {fileID: 894130787}
   - component: {fileID: 894130788}
+  - component: {fileID: 894130789}
   m_Layer: 0
   m_Name: Welcome Flowchart
   m_TagString: Untagged
@@ -790,9 +791,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 894130775}
-  selectedCommands:
-  - {fileID: 894130788}
+  - {fileID: 894130777}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -818,8 +818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 217.67029
-    y: 43.78028
+    x: 220.67029
+    y: 107.78028
     width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -899,7 +899,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 221.96683
-    y: 189.73622
+    y: 188.73622
     width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -910,6 +910,7 @@ MonoBehaviour:
   eventHandler: {fileID: 894130774}
   commandList:
   - {fileID: 894130788}
+  - {fileID: 894130789}
   - {fileID: 894130787}
   suppressAllAutoSelections: 0
 --- !u!114 &894130776
@@ -941,8 +942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 471.43964
-    y: 138.4725
+    x: 232.43964
+    y: 34.472504
     width: 114
     height: 40
   tint: {r: 0.7372549, g: 0.82745105, b: 0.93725497, a: 1}
@@ -1043,7 +1044,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &894130788
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1061,6 +1062,20 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &894130789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894130768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
 --- !u!1 &1147500153
 GameObject:
   m_ObjectHideFlags: 0

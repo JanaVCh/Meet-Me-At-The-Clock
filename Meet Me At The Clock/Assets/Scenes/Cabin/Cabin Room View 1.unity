@@ -363,7 +363,6 @@ GameObject:
   - component: {fileID: 56342362}
   - component: {fileID: 56342361}
   - component: {fileID: 56342364}
-  - component: {fileID: 56342365}
   m_Layer: 0
   m_Name: Cabin Flowchart
   m_TagString: Untagged
@@ -461,7 +460,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 56342178}
   selectedCommands:
-  - {fileID: 56342365}
+  - {fileID: 56342179}
   variables:
   - {fileID: 56342189}
   - {fileID: 56342212}
@@ -1867,7 +1866,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 56342177}
   commandList:
-  - {fileID: 56342365}
   - {fileID: 56342179}
   - {fileID: 56342180}
   suppressAllAutoSelections: 0
@@ -7138,20 +7136,6 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
---- !u!114 &56342365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56342107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 244
-  indentLevel: 0
 --- !u!1 &65870444
 GameObject:
   m_ObjectHideFlags: 0

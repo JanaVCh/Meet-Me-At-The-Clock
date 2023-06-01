@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 313023976}
   - component: {fileID: 313023978}
   - component: {fileID: 313023977}
+  - component: {fileID: 313023979}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -418,6 +419,7 @@ MonoBehaviour:
   - {fileID: 313023977}
   - {fileID: 313023972}
   - {fileID: 313023969}
+  - {fileID: 313023979}
   - {fileID: 313023968}
   suppressAllAutoSelections: 0
 --- !u!114 &313023966
@@ -447,7 +449,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 313023965}
   selectedCommands:
-  - {fileID: 313023977}
+  - {fileID: 313023979}
   variables:
   - {fileID: 313023974}
   description: 
@@ -743,7 +745,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &313023977
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -763,7 +765,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &313023978
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -785,6 +787,20 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &313023979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313023964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
 --- !u!1 &540141685
 GameObject:
   m_ObjectHideFlags: 0

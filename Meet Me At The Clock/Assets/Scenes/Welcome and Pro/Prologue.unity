@@ -517,6 +517,8 @@ GameObject:
   - component: {fileID: 1488240154}
   - component: {fileID: 1488240156}
   - component: {fileID: 1488240157}
+  - component: {fileID: 1488240159}
+  - component: {fileID: 1488240158}
   m_Layer: 0
   m_Name: Prologue Flowchart
   m_TagString: Untagged
@@ -700,6 +702,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1488240102}
   commandList:
   - {fileID: 1488240156}
+  - {fileID: 1488240159}
   - {fileID: 1488240100}
   - {fileID: 1488240098}
   - {fileID: 1488240101}
@@ -750,6 +753,7 @@ MonoBehaviour:
   - {fileID: 1488240120}
   - {fileID: 1488240151}
   - {fileID: 1488240154}
+  - {fileID: 1488240158}
   - {fileID: 1488240157}
   suppressAllAutoSelections: 0
 --- !u!114 &1488240104
@@ -779,7 +783,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1488240103}
   selectedCommands:
-  - {fileID: 1488240157}
+  - {fileID: 1488240158}
   variables: []
   description: 
   stepPause: 0
@@ -1826,7 +1830,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &1488240157
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1843,6 +1847,38 @@ MonoBehaviour:
     stringVal: Cabin Room View 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1488240158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488240095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+--- !u!114 &1488240159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488240095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: dcf2d5f7b7d41455bb78a2579909eb7b, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &1668240265
 GameObject:
   m_ObjectHideFlags: 0
